@@ -1,0 +1,18 @@
+<!-- 静的ファイルのURLを作成するstaticタグをロードする-->
+{% load static %}
+<!DOCTYPE html>
+<!-- 言語設定をjaにする-->
+<html lang='ja'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intital-scale=1, shrink-to-fit=no"   />
+    <meta name="desription" content=""  />
+    <meta name="author" content=""  />
+    <!--ページタイトル-->
+    <!--タイトルに、テンプレートタグを埋め込む-->
+    <title>{% block title %}{% end block %}</title>
+    
+</head>
+    
+</html>
